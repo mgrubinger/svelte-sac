@@ -33,7 +33,7 @@ Creates a writable store that syncs to the URLSearchParams.
  - does not support history.back currently.
  - uses history.replaceState
 
-```js
+```svelte
 <script>
 import { urlStore } from 'svelte-sac';
 let myUrlStore = urlStore("count", 42);
