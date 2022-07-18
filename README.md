@@ -25,6 +25,8 @@ let myDebouncedValue = debouncedWritable("a string", 100);
 
 ```
 
+[Demo](https://stackblitz.com/edit/vitejs-vite-grihgc?file=src/App.svelte)
+
 ### urlStore
 
 Creates a writable store that syncs to the URLSearchParams.
